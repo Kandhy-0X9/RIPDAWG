@@ -49,4 +49,11 @@ elif choice == '2':
     "2. Try to contact Anna again.\n" 
     "3. Wait for Anna to respond.\n")
 
-    # choice2 = input("Enter the number of your choice: ")
+    choice2 = input("Enter the number of your choice: ")
+    if choice2 == '1':
+        print("You rush to the engine room and find trails of blood.")
+        print("You: Anna? Anna!!")
+        print("\nchoices:\n"
+        "1. Follow the blood trail.\n"
+        "2. Call for backup.\n"
+        "3. Instantiate an emergency lockdown.\n")
