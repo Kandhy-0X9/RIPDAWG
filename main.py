@@ -1,9 +1,15 @@
+import os
 import time
 
 def pause(seconds=1.5):
     time.sleep(seconds)
 
+def clear():
+    # Clears the terminal screen
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def main():
+    clear()
     print("Anna: Captain, I detected an anomaly in the engine room.")
     pause()
     print("You: I'm busy right now Anna, can it wait?")
@@ -286,13 +292,12 @@ def main():
 
     replay = input("\nDo you want to play again? (yes/no): ").strip().lower()
     if replay == "yes":
+        clear()
         print("\n--- Restarting the story ---\n")
         pause()
         main()
     else:
         print("\nGoodbye, Captain.")
 
-
-##main game thing
 if __name__ == "__main__":
     main()
