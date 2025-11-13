@@ -22,7 +22,7 @@ if choice == '1':
     if choice2 == '1':
         print("Suddenly you are sprayed with the black liquid, and everything goes dark...")
         print("you have met a tragic end.")
-        3# End of this branch
+        # End of this branch
     
     elif choice2 == '2':
         print("Calvin: Anna is busy right now what do you need Cap?")
