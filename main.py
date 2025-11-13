@@ -61,7 +61,6 @@ if choice == '1':
         print("you have met a tragic end.")
         # End of this branch
 
-
 elif choice == '2':
     print("You tell Anna to investigate the anomaly.")
     print("Anna's Radio: Captain, you should come check this out... static...Captain!!")
@@ -80,6 +79,52 @@ elif choice == '2':
         "2. Call for backup.\n"
         "3. Instantiate an emergency lockdown.\n")
 
+        choice3 = input("Enter the number of your choice: ")
+        if choice3 == '1':
+            print("You follow the blood trail deeper into the engine room and suddenly a creature leaps out and attacks you.")
+            print("You have met a tragic end.")
+            # End of this branch
+        elif choice3 == '2':
+            print("Rasta: Capitan man, what de problem man?")
+            print("You: There's been an attack in the engine room, I need help!")
+            print("Rasta: Count on me man, I gat you. What we doin?")
+            print("You: Go in there and secure the area.")
+            print("Rasta: On it Capitan.")
+            print("You: I will get the others ready.")
+            print("\nChoices:\n"
+            "1. Close the engine room while Rasta is in there\n"
+            "2. Go to the Weaponry to arm yourself.\n"
+            "3. Call for help from HQ.\n")
+            choice4 = input("Enter the number of your choice: ")
+            if choice4 == '1':
+                print("You close the engine room door while Rasta is inside.")
+                print("After a few moments, you hear a loud thud and silence.")
+                print("Congrats! You have eliminated the anomaly but at the cost of Rasta's life.")
+                # End of this branch
+            elif choice4 == '2':
+                print("You head to the Weaponry and arm yourself with a laser rifle.")
+                print("You return to the engine room to find Rasta fighting the creature.")
+                print("With your help, you manage to subdue the creature and secure the area.")
+                print("You: you good Rasta?")
+                print("Rasta: What de hell was dat ting man?")
+                print("You: I don't know, but we need to report this to HQ.")
+                print("You and Rasta look down at the creature, suddenly it sprays black liquid everywhere.")
+                print("you have met a tragic end.")
+                # End of this branch
+            elif choice4 == '3':
+                print("You call for help from HQ.")
+                print("HQ: This is Nanite Systems, Anyway we can help?")
+                print("You: Our ship is under attack by an unknown creature in the engine room. We need immediate assistance.")
+                print("HQ:...")
+                print("You: I should have known better than to trust Nanite Systems.")
+                print("you have met a tragic end.")
+                # End of this branch
+        elif choice3 == '3':
+            print("You initiate an emergency lockdown, sealing the engine room.")
+            print("You lock yourself with your crew in the ship and all die of suffocation.")
+            print("you have met a tragic end.")
+            # End of this branch
+
     elif choice2 == '2':
         print("You try to contact Anna again but there is no response.")
         print("You: Anna, please respond.")
@@ -88,7 +133,36 @@ elif choice == '2':
         "1. Rush to the engine room to investigate.\n"
         "2. Call for backup.\n"
         "3. Look at the ship's security cameras.\n")
-        
+        choice3 = input("Enter the number of your choice: ")
+        if choice3 == '1':
+            print("Megan: This is Megan speaking, from security. We have a situation in the engine room. Everyone stay calm.")
+            print("you rush to the engine room and find Anna injured but alive.")
+            print("Anna: Captain...thank god you came.")
+            print("You: What happened here?")
+            print("Anna: It was...something...it attacked me.")
+            print("Anna: captain watch out!")
+            print("you have met a tragic end.")
+            # End of this branch
+        elif choice3 == '2':
+            print("You call for backup.")
+            print("You: This is the captain of Bastion one. Anyone copy?")
+            print("HQ: This is Nanite Systems, we read you Captain. What's your situation?")
+            print("You: Our ship is under attack by an unknown creature in the engine room.")
+            print("HQ: We're dispatching a team to assist you. Hold tight.")
+            print("You: Thank you.")
+            print("You look at the radar")
+            print("You: Why is an orbital strike heading towards us?")
+            print("you have met a tragic end.")
+            # End of this branch
+        elif choice3 == '3':
+            print("You access the ship's security cameras and see a creature moving through the engine room.")
+            print("You what is that thing?")
+            print("You suddenly wake up in the medbay.")
+            print("Anna: Captain you forgot to take your meds again.")
+            print("You: Oh... right.")
+            print("\nMAKE SURE YOU TAKE YOU MEDS NEXT TIME!\n")
+            print("TY 4 Playing!")
+            # End of this branch
 
 elif choice == '3':
     print("The engines suddlenly stop functioning and the ship drifts into an asteroid field.")
