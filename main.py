@@ -274,21 +274,60 @@ def main():
 
     # --- Choice 3 ---
     elif choice == '3':
-        print("\nThe engines suddenly stop functioning and the ship drifts into an asteroid field.")
+        print("\nYou decide to ignore the anomaly for now.")
+        pause()
+        print("The engines suddenly stop functioning and the ship drifts into an asteroid field.")
         pause()
         print("You call on the crew to fix the engines but there is no power.")
         pause()
         print("You: Come on... stupid ship.")
         pause()
-        print("You look outside the window.")
+        print("Anna: Captain... anomaly spreading... systems compromised...")
         pause()
-        print("You: We're doomed...")
+        print("You: Anna? Stay with me!")
         pause()
-        print("Congrats, you eliminated the anomaly at the expense of the entire crew.")
-        pause()
-        print("You have met a tragic end.")
-    else:
-        print("Invalid choice.")
+
+        print("\nChoices:\n"
+            "1. Attempt to manually restart the engines.\n"
+            "2. Order the crew to abandon ship.\n"
+            "3. Search for the source of the anomaly despite ignoring it earlier.\n")
+
+        choice2 = input("Enter the number of your choice: ")
+
+        if choice2 == '1':
+            print("\nYou rush to the control panel and attempt a manual restart.")
+            pause()
+            print("The engines roar back to life for a moment, but then overload.")
+            pause()
+            print("The ship shakes violently as alarms blare.")
+            pause()
+            print("You are thrown against the wall as the ship is torn apart.")
+            pause()
+            print("You have met a tragic end.")
+
+        elif choice2 == '2':
+            print("\nYou order the crew to abandon ship.")
+            pause()
+            print("Escape pods launch into the void, scattering across the asteroid field.")
+            pause()
+            print("You remain behind, watching as the ship collides with an asteroid.")
+            pause()
+            print("Your sacrifice ensures some of your crew survives.")
+            pause()
+            print("Congrats, you eliminated the anomaly at the expense of your own life.")
+
+        elif choice2 == '3':
+            print("\nYou finally decide to confront the anomaly.")
+            pause()
+            print("As you enter the engine room, the black liquid has spread across the walls.")
+            pause()
+            print("What the heck is this stuff?")
+            pause()
+            print("Suddenly, a creature emerges from the liquid and attacks you in a swift motion.")
+            pause()
+            print("You have met a tragic end.")
+        else:
+            print("Invalid choice.")
 
     replay = input("\nDo you want to play again? (yes/no): ").strip().lower()
     if replay == "yes":
