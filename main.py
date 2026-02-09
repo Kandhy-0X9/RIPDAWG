@@ -86,8 +86,9 @@ def main():
                 pause()
                 print("Anna: Stop being paranoid, Captain. Everything is fine.")
                 pause()
-                print("\nMAKE SURE YOU TAKE YOUR MEDS NEXT TIME!\n")
-                print("TY 4 Playing!")
+                print("Doc: Make sure to take your meds next time, will ya cap!")
+                pause()
+                print("You: Yeah yeah...")
             else:
                 print("Invalid choice.")
 
